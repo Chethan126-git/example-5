@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to right, #dbeafe, #eff6ff);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Main Container */
+.container {
+    background: white;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    width: 350px;
+    text-align: center;
+}
+
+/* Heading */
+h1 {
+    color: #2563eb;
+    margin-bottom: 20px;
+}
+
+/* Input Section */
+.form-box input {
+    width: 90%;
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+
+/* Button */
+.form-box button {
+    background: #2563eb;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    width: 95%;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.form-box button:hover {
+    background: #1d4ed8;
+}
+
+/* Notification Box */
+#notificationBox {
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 15px;
+    background: #fef3c7;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+#notificationBox button {
+    margin: 5px;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+#notificationBox button:first-child {
+    background: #22c55e;
+    color: white;
+}
+
+#notificationBox button:last-child {
+    background: #ef4444;
+    color: white;
+}
+
+/* Report */
+.report {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.hidden {
+    display: none;
+}
